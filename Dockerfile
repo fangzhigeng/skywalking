@@ -1,4 +1,4 @@
-FROM deepexi/java:v0.0.1
+FROM deepexi/java-skywalking:v0.0.2
 
 WORKDIR /home
 
