@@ -1,6 +1,5 @@
 package com.deepexi.controller;
 
-import com.deepexi.devops.tracing.controller.Payload;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/demo")
 @RestController
 @Payload
-public class controller {
+public class demoController {
     @GetMapping("/greeting")
     public String greeting(){
         return "hello";
